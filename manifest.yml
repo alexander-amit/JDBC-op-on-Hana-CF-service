@@ -9,6 +9,6 @@ applications:
       # This may help with slow startup times, especially when using Spring Boot.
       JAVA_OPTS: -Djava.security.egd=file:///dev/./urandom
   services:
-  - Hana_connect_test_I341533
+  - hana_test
 
 

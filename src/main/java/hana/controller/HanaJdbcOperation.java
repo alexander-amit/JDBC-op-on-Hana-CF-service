@@ -15,17 +15,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import javax.inject.Inject;
-//import org.springframework.jdbc.datasource.SimpleDriverDataSource;
-//import com.hana.jdbc.HanaJdbc;
-//import com.hana.model.SuperHeros;
-//import com.hana.repo.SuperHeroRepo;
+
 import javax.sql.DataSource;
 
 @RestController
 public class HanaJdbcOperation {
 
-	// @Autowired
-	// HanaJdbc hanaJdbc;
 	private static final String TABLE_NAME = "\"hana.model::SuperHeros\"";
 
 	@Inject
